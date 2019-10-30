@@ -1,0 +1,38 @@
+form {
+    display: inline-block;
+    /* padding: 40px; */
+}
+
+   .form-row {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+        label {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            color: #ccc;
+        }
+        input {
+            display: inline-block;
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid grey;
+            /* padding: 8px; */
+            line-height: 40px;
+            font-size: 20px;
+            outline: none;
+        }
+        .no-margin {
+            display: inline-block;
+            margin: 0;  
+            padding: 0; 
+        }
+            /* .form-row > span {
+                display: inline-block;
+                line-height: 10px;
+            }
+            */
